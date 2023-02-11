@@ -1,0 +1,51 @@
+.mainnav .active {
+  color: red !important;
+}
+
+.mainnav .active::after {
+  content: "";
+  background-color: red;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+/* .e2
+{
+  margin-left: 10px;
+  margin-top: 10px;
+
+} */
+.hero-area {
+  min-height: 680px;
+  background-size: 100% 100%;
+}
+
+.hero-nav {
+  padding-top: 20px;
+}
+
+.hero-nav .active {
+  color: red !important;
+  background-color: transparent !important;
+}
+
+.hero-nav .active::after {
+  content: "";
+  background-color: red;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+.song-small:hover{
+  border: solid thin grey;
+  cursor: pointer;
+  transform:translateY(-10px);
+}
+
+.song-small {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(108, 117, 125, 1) 67%, rgba(0, 212, 255, 0.31425070028011204) 100%);
+  transition: all 0.3s ease;
+}
